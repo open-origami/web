@@ -1,0 +1,86 @@
+.action {
+  margin : 0 auto;
+  color  : #37474F;
+}
+
+.action .title {
+  font-size   : 44px;
+  font-weight : 400px;
+  text-align  : center;
+  line-height : 1.25;
+}
+
+.action .body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action .body .description {
+  margin      : 40px 60px 40px 110px;
+  width       : 50%;
+  font-size   : 24px;
+  font-weight : 300;
+  text-align  : right;
+  line-height : 1.5;
+}
+
+.action .body .link a {
+  padding       : 15px 60px;
+  font-size     : 18px;
+  border-radius : 4px;
+  text-align    : center;
+  background    : #F19700;
+  color         : #FFF;
+}
+
+.action .logo {
+  position      : relative;
+  left          : 500px;
+  margin-bottom : -42px;
+}
+
+@media screen and (max-width: 850px) {
+
+  .action .body {
+    display : block;
+  }
+
+  .action .body .description {
+    width      : 90%;
+    margin     : 30px auto;
+    padding    : 20px;
+    text-align : center;
+  }
+
+  .action .body .link {
+    margin     : 40px auto;
+    width      : 250px;
+    text-align : center;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .action .logo {
+    left      : 350px;
+    bottom    : -31px;
+    transform : scale(0.7);
+  }
+
+}
+
+@media screen and (max-width: 590px) {
+
+  .action .title {
+    font-size : 36px;
+  }
+
+  .action .logo {
+    left      : 230px;
+    bottom    : -41px;
+    transform : scale(0.6);
+  }
+
+}

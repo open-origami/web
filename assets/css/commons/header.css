@@ -1,0 +1,168 @@
+.header {
+  display    : flex;
+  max-width  : 1140px;
+  min-width  : 700px;
+  min-height : 500px;
+  margin     : 20px auto;
+  position   : relative;
+}
+
+.header .box {
+  position      : relative;
+  top           : -320px;
+  width         : 100%;
+  height        : 750px;
+  margin        : 0 auto;
+  padding       : 350px 100px;
+  background    : #37464F;
+  box-shadow    : 9px 9px 10px 0px #CCC;
+  border-radius : 100px;
+  transform     : rotate(-20deg);
+}
+
+.header .container {
+  transform : rotate(20deg);
+}
+
+.header .container .banner .title {
+  margin      : 0;
+  padding     : 0;
+  color       : #F19700;
+  font-size   : 84px;
+}
+
+.header .container .banner .slogan {
+  margin-top  : 20px;
+  padding     : 0;
+  color       : #CCC;
+  font-size   : 48px;
+  font-weight : 300;
+}
+
+.header .container .logo {
+  position : relative;
+  left     : -250px;
+  top      : 50px;
+}
+
+.header .container .logo img {
+  width      : 500px;
+  transition : all 3s ease;
+}
+
+.header .logo img:active {
+  transform  : rotate(1800deg);
+  transition : all 3s ease;
+}
+
+@media screen and (max-width: 1215px) {
+
+  .header .container .logo {
+    left      : 400px;
+    top       : -300px;
+    transform : scale(0.6);
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+  .header .container .banner  {
+    text-align   : right;
+    margin-right : 50px;
+  }
+
+  .header .container .logo {
+    left : -360px;
+  }
+
+}
+
+@media screen and (max-width: 930px) {
+
+  .header .box {
+    padding-top : 300px;
+  }
+
+  .header .container {
+    transform : scale(0.8) rotate(20deg);
+  }
+
+  .header .container .banner {
+    margin-right : -50px;
+  }
+
+  .header .container .logo {
+    transform : scale(0.8);
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .header .container {
+    transform : scale(1) rotate(20deg);
+  }
+
+  .header .container .banner  {
+    text-align : left;
+    position   : relative;
+    top        : 30px;
+    left       : -120px;
+  }
+
+  .header .container .logo {
+    left      : -250px;
+    top       : 30px;
+    transform : scale(0.8);
+  }
+
+}
+
+@media screen and (max-width: 635px) {
+
+  .header .container {
+    transform : scale(0.8) rotate(20deg);
+  }
+
+  .header .container .banner  {
+    left: -220px;
+  }
+
+  .header .container .logo {
+    left : -320px;
+    top  : 50px;
+  }
+
+}
+
+@media screen and (max-width: 525px) {
+
+  .header .box {
+    left : -300px;
+  }
+
+  .header .container .banner {
+    top       : -30px;
+    left      : -150px;
+    padding   : 100px 0;
+    transform : scale(0.8) rotateZ(90deg);
+  }
+
+  .header .container .logo  {
+    top       : -550px;
+    left      : 150px;
+    transform : scale(0.6);
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+
+   .header .container .logo  {
+     top : -600px;
+     left: 40px;
+     transform : scale(0.35);
+  }
+
+}

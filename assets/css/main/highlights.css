@@ -1,0 +1,31 @@
+.highlights {
+  color      : #37474F;
+  text-align : center;
+}
+
+.highlights .highlight {
+  display : inline-block;
+  width   : 330px;
+  padding : 40px 20px;
+}
+
+.highlights .highlight .icon {
+  margin        : 0 auto;
+  width         : 100px;
+  height        : 100px;
+  border-radius : 100px;
+  color         : #FFF;
+  background    : #F7B63E;
+  font-size     : 40px;
+  line-height   : 100px;
+}
+
+.highlights .highlight .label {
+  margin    : 20px auto;
+  font-size : 28px;
+}
+
+.highlights .highlight .caption {
+  font-size   : 18px;
+  line-height : 1.3;
+}

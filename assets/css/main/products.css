@@ -1,0 +1,13 @@
+.products {
+  margin: 40px auto;
+
+}
+
+.products .figure {
+  text-align: center;
+}
+
+.products .figure img {
+  width : 90%;
+  box-shadow: 10px 6px 37px -14px #CCC;
+}
